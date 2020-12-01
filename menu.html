@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V3RVV1F4GF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V3RVV1F4GF');
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta Malar">
+    <link rel="stylesheet" href="https://use.typekit.net/ygi2mrm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpg" href="images/SammiesLOGOFINAL.jpg"/>
+    <title class = "menu">Menu - Sammies</title>
+    <style> 
+      .parallax {
+        background-image: url("images/IMG_8254.JPG");
+        min-height: 812px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+      }
+      </style>
+
+  </head>
+
+  <body>
+    <a class="skip" href = "#main" > Skip to Main Content </a>
+    <nav>
+      <img src = "images/SammiesLOGOFINALblank.png" alt = "logo" class = "logo" id ="grow"> 
+        <div class = "nav">
+            <ul class = "nav_links">
+              <li> <a href="index.html"> HOME </a> </li>
+              <li> <a class = "activePage" href="#skip"> MENU </a> </li>
+              <li> <a href="hours.html"> HOURS </a></li>
+              <li> <a href="about.html"> ABOUT</a> </li>
+            </ul> 
+          </div> 
+        </nav>
+        <header>
+          <!-- Hamburger Nav Menu -->
+          <div class="topnav">
+            <img src = "images/SammiesLOGOFINALblank.png" alt = "logo" class = "logo" id ="grow">
+            
+             
+            <!-- Navigation links -->
+            <div id="myLinks">
+              <a href="index.html">HOME</a>
+              <a href="menu.html" class = "active" >MENU</a>
+              <a href="hours.html">HOURS</a>
+              <a href="about.html">ABOUT</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"> </i></a>
+          </div>
+          <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+          }
+          </script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script>
+            $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                  event.preventDefault();
+                  var hash = this.hash;
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, function(){
+                    window.location.hash = hash;
+                  });
+                } 
+              });
+            });
+          </script>
+        </header>
+    
+    
+      <div class="parallax">
+        <!-- <div class = "menu-block" class = "menu"> 
+        <h1>Our Menu  </h1>
+       </div> -->
+      </div>
+     
+      <a class="button-scroll" href="#section03"><img alt="Arrow Down Icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABmJLR0QA/wD/AP+gvaeTAAAFDUlEQVRoge2ay28bVRTGvzPjuJ04iePWOIXELnGSNtXQRs6MlQWwolJLCxKqBIt2hUACljwW8D8UViBBBSxA3RUkNpSKx8qLSJnBSkglmrZRaJ6TNCGBoLZOPYdFndJ6ZjzPhC7yLc+95/HzPHzvuQPsaEc7CiOKOiAzC5qmDQiCIDPzAWbuIKKW2tg6ERlENFGtVseLxeIYEZlR5o8E6PLly/Fbt26dAHAGwHMAUh5dVwD8zMznm5ubL8qyXAlbSyigUqnUKknSm8z8DoB9IWuZB/ChJEmfybK8HjRIYCBd119k5k8AZIPGcNA8M7+vqurXRMR+nX0DDQ8Pt8Visc8BvOzX16e+i8fjrx45cuRPP06+gDRN6wfwPYBuP34hNMnMJ4rF4hWvDp6BdF1XmPkHAOlApQXXEhE9ryiK7mWyJ6ByudxXrVZLADKhSguumwCeVVX1d7eJrkBjY2OpSqWiY/tuMydNiqKoFAqF1UaTBLcolUrlS/z/MACQv3v37hdukxoCaZp2GsBLkZUUUkR0Stf1VxrOcRoolUqtu3fvvgLg8cgrC6fZpqamgwMDA//YDTpeoV27dr2FRw8GADo3NjbecBq0vUK1tdkfCL+c2SrNAXhSVdWN+gHbK3T79u2TeHRhAOAJIjpuN2ALxMynt7ae8DJN84yd3QLEzALubQE8S5KkgGUFj0FER2u1PiSLQdO0AXjfzyCbzeLQoUNIJpO+CnpQbW1t6O/vx/79+/247S2Xy4frjXa33FNeI2azWWQyGRAR8vk8Wltb/RQEAEgmk+jp6YEgCEin076gTNOU620WICI64CVYLpdDJvPf0k4QBPT29vqCam9vvw+zqXQ6jVwu5zXEwXqDHdBjXiLduXPHYvMDlUwmkc/nQWT959jYsLyNnWRZ+du9FFq8RDIMAzMzMxa7F6hUKoWenh5bmNnZWczPz3spAczcZsnvydNBblAtLdbfJpVKobu72xZmenoaCwsLYUqyveV8NSjcoBKJxH2bG8zi4qKf1CCivyx56w3M7C8qnKFEUURfXx8SiQT27NnjCHPjxg3fMLVal+ptMZtJV+2SuskwDBAROjs7H7JvQgmCYAszNTWF5eVl3/kAgIgm6m12V+i3QNEBLCwsOF6pehhmDgUDAEQ0brHVG5hZ0HV9EcDeoIk6OjrQ1dXlOL4Js7KyEjQFACwripKpbyXbvRRMAL+EyeT0TAGRwYCIfrTrizutts+HygZ7KGbG5ORkaJiabGu0BWpubr6Ie73mUHoQahNmdbVh08ar5pj5kt2ALVDtFOCjKDJvQl2/fj0qGDDzWbvdKtBgpSBJ0qe4t9UNLcMwsLa2FkUoAJiJx+PnnAYdgWRZXmfmd6OqIiox89tOHR/AQ+d0ZGTkGyI6FW1ZgXVBVdWGpx6ui9NYLPYagMnISgquawBed5vkClQoFFaJ6BgAI4qqAuomM7+gqqrrg+hp+6AoyjUiOgnAshjcBi0BOOb1jMjzfkhRFL1arT6D7b39romi+LSqqr96dfC1wRsaGpoQRVFh5m/91+ZbFwCohULhqh+nsIfGHwPw3NHwqDlm/qBYLH4VxDnUsf7o6Gii1jh/D+Eb+3PMfDYej59r9D/jpkg+vNA0rYmIjpumeYaIjsL71uMmEf0E4DwzX3JazvjRlnwaUy6XD5umKTPzAUEQ9j3QSfqbmQ0imiCi8cHBwfGoP43Z0Y52FE7/Ahnr4e+qar89AAAAAElFTkSuQmCC"></a> 
+      <main id = "main"> 
+      <section id = "section03">
+        <div class= "menu-description container-sm"> 
+          
+            
+            <h1 > Sammies </h1>
+            <p> *All Sammies are $5 including tax, except Roast Beef ($6)  </p>
+            
+            <p> Choose your meet&#58; Turkey,  Roast Beef, or Ham <br> 
+              Choose your bread&#58; Wheat,  Rye, or Kaiser Bun <br> 
+              (Comes with cheese, mustard, mayo and pickle slices)
+          </p>
+          <h2>In the Cooler</h2> 
+          <p> Veggie <br> 
+            Pimento Cheese <br> 
+            Chicken Salad <br> 
+            (on wheat or in a cup with crackers) <br>
+            
+          </p> 
+
+          <h2>Snacks</h2>
+          <p>Chips <br> Crackers <br> Cookies <br> Candy <br> </p>
+          <h2>Drinks</h2>
+          <p> Assorted sodas/sports drinks <br> Brewed tea</p>
+          
+              
+        </div> 
+      </section>
+    </main>
+    <footer>
+      <img src = "images/SammiesLOGOFINALblank.png" alt = "logo" class = "logo">
+      <p> 256 Redfern Village <br> 
+          St. Simons, GA 31522 </p>
+      <p> Tues - Sat 10:30 - 2:30 </p>
+      <p>
+        <a href = 'tel:9122694920'> Call: 912-268-4920 </a>
+      </p>
+      <p>
+         <a href = "https://www.instagram.com/sammies_ssi/" target="_blank"> <i class="fa fa-instagram circle-icon" style = "font-size:24px"> </i></a>
+        <a href = "https://www.yelp.com/biz/sammies-st-simons" target="_blank"> <i class="fa fa-yelp circle-icon" style = "font-size:24px"></i></a>
+       </p> 
+      <p> &copy; 2020 Emmaline Smith <br> 
+          All Rights Reserved </p>
+    </footer>
+  </body>
+</html>
