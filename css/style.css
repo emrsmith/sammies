@@ -90,7 +90,7 @@
     width: 49px;
     height: 49px;
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     left: 0;
     right: 0;
     margin: auto;
@@ -143,36 +143,32 @@
 
 
 
-  .menu-block { 
-    display: block; 
-    background-color:#9f1412;  
-    position: absolute; 
-    top: 50%;  
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 320px;
-  }
+.top_text { 
+  font-family: "Mukta Malar"; 
+  color: white; 
+  display: block; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 320px;
+}
 
-  .index-block { 
-    display: block;  
-    background-color:#9f1412;
-    position: absolute; 
-    top: 50%;  
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 360px;
-     
-  }
+.top_text { 
+  font-family: "mukta malar"; 
+  color: white; 
+  font-size: 3em; 
+  display: block; 
+  text-align: center; 
+  text-shadow: 6px 6px #9f1412;
+  text-transform: uppercase;
+  width: 400px; 
+  font-weight: 900; 
+}
 
-  .hours-block { 
-    display: block; 
-    background-color: #9f1412; 
-    position: absolute; 
-    top: 50%;  
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-  }
+
+
+  
 
   
   
@@ -425,35 +421,12 @@
   .logo { 
     max-width: 25%; 
   }
+  
+  
 
-  .menu-block { 
-    display: block; 
-    background-color: #9f1412; 
-    position: absolute; 
-    top: 50%;  
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-  }
-
-  .index-block { 
-    display: block; 
-    background-color: #9f1412; 
-    position: absolute; 
-    top: 50%;  
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 520px;
-  }
-
-  .hours-block { 
-    display: block; 
-    background-color: #9f1412; 
-    position: absolute; 
-    top: 50%;  
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 520px;
+  .top_text { 
+    width: 520px; 
+    font-size: 4m; 
   }
 
   
@@ -632,36 +605,10 @@
         padding: 15px;
       }
 
-      .menu-block { 
-        display: block; 
-        background-color: #9f1412; 
-        position: absolute; 
-        top: 50%;  
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 550px;
+      .top_text { 
+        width: 570px; 
+        font-size: 4.5em; 
       }
-
-      .index-block { 
-        display: block; 
-        background-color: #9f1412; 
-        position: absolute; 
-        top: 50%;  
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 570px;
-      }
-
-      .hours-block { 
-        display: block; 
-        background-color: #9f1412; 
-        position: absolute; 
-        top: 50%;  
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 570px;
-      }
-      
 
       
       .container-sm { 
