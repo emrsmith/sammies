@@ -710,4 +710,9 @@
       animation: none; 
     }
 
+    a.skip { 
+      
+      transition: none;  
+    }
+
   
