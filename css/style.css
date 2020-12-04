@@ -48,6 +48,7 @@
 .parallax { 
   background-image: url("../images/IMG_2504.JPG"); 
   background-size: cover; 
+  background-position: center;
   display: block; 
   max-width: 100%; 
   height: 812px; 
@@ -60,9 +61,10 @@
 .parallax2 { 
   background-image: url("../images/IMG_8254.JPG");
   background-size: cover; 
+  background-position: center; 
   display: block; 
   max-width: 100%; 
-  height: 812px; 
+  height: 790px; 
   margin-left: auto; 
   margin-right: auto; 
   -o-object-fit: cover; 
@@ -72,11 +74,13 @@
 .parallax3 { 
   background-image: url("../images/IMG_2527_3.jpg");
   background-size: cover; 
+  background-position: center;
   display: block; 
   max-width: 100%; 
-  height: 812px; 
+  height: 790px; 
   margin-left: auto; 
   margin-right: auto; 
+
   -o-object-fit: cover; 
      object-fit: cover;
 }
@@ -84,6 +88,7 @@
 .parallax4 { 
   background-image: url("../images/IMG_5762.JPG");
   background-size: cover; 
+  background-position: center;
   display: block; 
   max-width: 100%; 
   height: 812px; 
@@ -517,7 +522,7 @@
       background-position:center; 
       background-repeat: no-repeat;  
       background-attachment: fixed; 
-      height: 812px; 
+      height: 790px; 
     }
 
     .parallax2 {  
@@ -544,7 +549,7 @@
       background-position:center; 
       background-repeat: no-repeat;  
       background-attachment: fixed; 
-      height: 812px; 
+      height: 790px; 
     }
    
     
@@ -729,7 +734,7 @@
       background-position:center; 
       background-repeat: no-repeat;  
       background-attachment: fixed; 
-      height: 812px; 
+      height: 790px; 
     }
 
 
@@ -757,7 +762,7 @@
       background-position:center; 
       background-repeat: no-repeat;  
       background-attachment: fixed; 
-      height: 812px; 
+      height: 790px; 
     }
 
     .topnav { 
