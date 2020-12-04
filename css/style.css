@@ -17,11 +17,18 @@
     line-height: 1.25;
   }
 
+  
   .parallax { 
-    width: 100%; 
+      display: block; 
+      max-width: 100%; 
+      height: 812px; 
+      margin-left: auto; 
+      margin-right: auto;
+      object-fit: cover;
   }
 
-  
+
+ 
 
  
   .center { 
@@ -411,6 +418,35 @@
 
 
   @media all and (min-width: 600px) {
+    /*
+    .parallax::after { 
+      content: '';
+      position: absolute; 
+      top: 0; 
+      right: 0; 
+      bottom: 0; 
+      left: 0; 
+  
+      background-size: cover; 
+      transform: translateZ(-1px) scale(1.7); 
+      z-index: -1; 
+  
+      background-image: url("images/IMG_2504.JPG")
+    }
+*/
+
+    .parallax { 
+      height: 100vh; 
+      max-width: 100%; 
+      background-image: url("images/IMG_2504.JPG");
+      background-size: cover; 
+      background-position:center; 
+      display: table; 
+      background-attachment: fixed; 
+    }
+    
+    
+    
     nav { 
       background-color: transparent; 
       display: flex; 
@@ -540,11 +576,12 @@
     grid-column: 1 / span 2; 
     grid-row: 8 / span 2; 
   }
-
+/*
   #top_image { 
     display: none; 
   }
-
+  
+*/
 
 }
 
@@ -557,8 +594,32 @@
 
 
   @media all and (min-width: 1000px) { 
+/*
+    .parallax::after { 
+      content: '';
+      position: absolute; 
+      top: 0; 
+      right: 0; 
+      bottom: 0; 
+      left: 0; 
+  
+      background-size: cover; 
+      transform: translateZ(-1px) scale(1.7); 
+      z-index: -1; 
+  
+      background-image: url("images/IMG_2504.JPG")
+    }
+*/
 
-    
+    .parallax { 
+      height: 100vh; 
+      max-width: 100%; 
+      background-image: url("images/IMG_2504.JPG");
+      background-size: cover; 
+      background-position:center; 
+      display: table; 
+      background-attachment: fixed; 
+    }
 
     .topnav { 
       display: hide; 
@@ -714,9 +775,12 @@
         object-fit: cover; 
       }
 
+      /*
       #top_image { 
         display: none; 
       }
+
+      */
   }
 
 
@@ -731,19 +795,21 @@
       transition: none;  
     }
 
-    @media all and (max-width: 500px) { 
-      .parallax { 
-        display: none; 
-      }
+  }
 
-      #top_image { 
-        display: block; 
-        max-width: 100%; 
-        height: 812px; 
-        margin-left: auto; 
-        margin-right: auto;
-        object-fit: cover; 
-      }
-
-
+  /*
+  @media all and (max-width: 500px) { 
+    .parallax{ 
+      display: none !important;  
     }
+  
+    #top_image { 
+      display: block; 
+      max-width: 100%; 
+      height: 812px; 
+      margin-left: auto; 
+      margin-right: auto;
+      object-fit: cover; 
+    }
+  */
+  }
