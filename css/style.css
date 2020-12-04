@@ -17,6 +17,10 @@
     line-height: 1.25;
   }
 
+  .parallax { 
+    width: 100%; 
+  }
+
   
 
  
@@ -403,6 +407,8 @@
 
   /* tablet view */
 
+  
+
 
   @media all and (min-width: 600px) {
     nav { 
@@ -548,6 +554,8 @@
 
 
   @media all and (min-width: 1000px) { 
+
+    
 
     .topnav { 
       display: hide; 
