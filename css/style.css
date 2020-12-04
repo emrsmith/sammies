@@ -17,6 +17,11 @@
     line-height: 1.25;
   }
 
+  img { 
+    width: 90%; 
+
+  }
+
  
   .center { 
      
@@ -710,8 +715,7 @@
       animation: none; 
     }
 
-    a.skip { 
-      
+    a.skip {
       transition: none;  
     }
 
