@@ -134,9 +134,7 @@
   }
 
   a.activePage { 
-      background-color: #9f1412; 
-      text-decoration: underline; 
-      text-decoration-color: black; 
+      background-color: #9f1412;  
       color: white; 
   }
 
